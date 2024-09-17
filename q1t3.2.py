@@ -18,3 +18,4 @@ with open('top_30_tokens_using_AutoTokenizer.csv', 'w', newline='') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(['Token', 'Count'])
     writer.writerows(top_30_tokens)
+
