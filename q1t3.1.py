@@ -14,4 +14,3 @@ with open('top_30_words_Using_in_build_functions.csv', 'w', newline='') as csvfi
     writer = csv.writer(csvfile)
     writer.writerow(['Word', 'Count'])
     writer.writerows(top_words)
-
