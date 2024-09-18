@@ -10,8 +10,7 @@ word_counts = Counter(words)
 
 top_words = word_counts.most_common(30)
 
-with open('top_30_words_Using_in_build_functions.csv1', 'w', newline='') as csvfile:
+with open('top_30_words_Using_in_build_functions.csv', 'w', newline='') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(['Word', 'Count'])
     writer.writerows(top_words)
-
