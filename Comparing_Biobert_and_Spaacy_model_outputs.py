@@ -64,5 +64,6 @@ plt.bar(labels, values, color=['blue', 'orange', 'green', 'red', 'purple'])
 plt.xlabel('Entity Groups')
 plt.ylabel('Count')
 plt.title('Total and Common Entities Count')
-plt.show()
 plt.savefig('Bar_graph_Comparison')
+plt.show()
+
