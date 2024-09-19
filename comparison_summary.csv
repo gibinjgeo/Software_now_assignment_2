@@ -1,0 +1,8 @@
+Metric,Value
+Total entities in file1,163812
+Total entities in file2,96688
+Total entities in file3,223477
+Common entities between file1 and file2,1444
+Common entities between file1 and file3,24942
+Unique entities in file1 compared to file2,162368
+Unique entities in file1 compared to file3,138870
