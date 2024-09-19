@@ -51,4 +51,3 @@ for i, chunk in enumerate(chunks):
     # break  # Remove this break if you want to process all chunks
 
 print("Entities extraction completed and written to 'biobert_entities.csv'.")
-
