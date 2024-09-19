@@ -1,5 +1,35 @@
 Gibin Joseph Geo
+Task_3
 
+Top Token Extraction using BioBERT Tokenizer
+
+This script uses the AutoTokenizer from the dmis-lab/biobert-base-cased-v1.1 model to tokenize and count the most frequent tokens from a text file.
+Overview
+
+The script reads a text file (combined_text.txt), tokenizes its content, and counts the frequency of each token. It then filters the top 30 most frequent alphabetic tokens and writes them to a CSV file (top_30_tokens_using_AutoTokenizer.csv).
+Output
+
+    CSV File: top_30_tokens_using_AutoTokenizer.csv
+        Columns: Token, Count
+        Contains the top 30 most frequent alphabetic tokens and their counts.
+
+Requirements
+
+    transformers
+    collections
+    csv
+
+Install the required library:
+
+bash
+
+pip install transformers
+
+Usage
+
+Run the script to extract and count the tokens from combined_text.txt. The results will be saved in the top_30_tokens_using_AutoTokenizer.csv file.
+
+Task_4
 Biomedical Named Entity Recognition and Comparison
 
 This repository contains scripts for biomedical named entity recognition (NER) using various models (SpaCy and BioBERT) and comparison between extracted entities from multiple sources. The project primarily focuses on extracting drug and disease entities from a large text file and comparing the results from different NER models.
@@ -116,3 +146,17 @@ Output Files
 
 MyFiles
         https://charlesdarwinuni-my.sharepoint.com/:f:/g/personal/s378184_students_cdu_edu_au/Ej-nB6qv3OxHq4lk-SOiNuwBPVbamceEOtnC6t4bx1r9Sg?e=C1wtKc
+
+
+James 
+
+Chapter1 uses the provided algorithm which generates a number by changing the R,G,B channels of a provided image by adding values to the original R,G,B 
+channels and generates a new images using the new results from the R,G,B channels
+The program uses OpenCv module for the image processing.
+
+Chapter2 using a specified string "s", this is a program which breaks the given string
+into long strings and number, converting the number strings into ASCII decimal values,and also converts the 
+Upper case letters in the sting to ASCII decimal values,
+
+Also in chapter2 code, a program is written to decrypt and print a cryptogram using shift key values
+
