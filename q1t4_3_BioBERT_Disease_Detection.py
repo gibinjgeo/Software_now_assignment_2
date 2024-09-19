@@ -43,7 +43,7 @@ for i, chunk in enumerate(chunks):
                 diseases[-1] += f" {entity['word']}"
 
     # Write the extracted diseases to the CSV file
-    with open('biobert_entities.csv', 'a', newline='') as file:
+    with open('biobert_entities_disease.csv', 'a', newline='') as file:
         writer = csv.writer(file)
         for disease in diseases:
             writer.writerow([disease, 'DISEASE'])  # Write each disease as a row
